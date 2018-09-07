@@ -13,7 +13,11 @@ $("img'").on("load", function() {
 }
 
 function pressIt() {
-  
+$('input').on('keydown', function(key) {
+  if (key.which == 82){
+    alert('r was pressed');
+  }
+});
 }
 
 
