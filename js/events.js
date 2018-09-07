@@ -12,6 +12,8 @@ $("img'").on("load", function() {
   });
 }
 
+
+
 $(document).ready(function(){
 
 getIt() 
