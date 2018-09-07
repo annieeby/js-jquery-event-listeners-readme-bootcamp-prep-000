@@ -7,8 +7,8 @@ $("p").on("click", function() {
 }
 
 function frameIt() {
-$("img'").on("load", function() {
-  $("img").addClass("tasty")
+$("image'").on("load", function() {
+  $("image").addClass("tasty")
   });
 }
 
