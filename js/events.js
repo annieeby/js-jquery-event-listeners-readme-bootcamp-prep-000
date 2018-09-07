@@ -20,6 +20,12 @@ $('input').on('keydown', function(key) {
 });
 }
 
+function submitIt() {
+$("form").on("submit", function() {
+  alert ()
+})
+}
+
 
 
 $(document).ready(function(){
