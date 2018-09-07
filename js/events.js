@@ -36,6 +36,8 @@ frameIt()
 
 pressIt()
 
+submitIt()
+
 })
 
 /*
