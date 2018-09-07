@@ -40,8 +40,8 @@ function getIt() {
   $('p.alert').click(function(){
     alert("Hey!");
 })
-*/
 
 //Difference between .on('click') vs .click() - Stack Overflow https://stackoverflow.com/questions/9122078/difference-between-onclick-vs-click
 
 });
+*/
