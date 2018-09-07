@@ -12,6 +12,14 @@ $("img'").on("load", function() {
   });
 }
 
+function frameIt() {
+var images = document.getElementsByTagName("img");
+var i;
+
+for(i = 0; i < images.length; i++) {
+    images[i].className += " imagedropshadow"
+    }
+}
 
 
 $(document).ready(function(){
