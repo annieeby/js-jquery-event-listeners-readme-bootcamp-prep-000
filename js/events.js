@@ -13,7 +13,7 @@ var images = document.getElementsByTagName("img");
 var i;
 
 for(i = 0; i < images.length; i++) {
-    images[i].className += " imagedropshadow"
+    images[i].className += "tasty"
     }
 }
 
