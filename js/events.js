@@ -6,16 +6,13 @@ $("p").on("click", function() {
   });
 }
 
-
-
 function frameIt() {
-var images = document.getElementsByTagName("img");
-var i;
-
-for(i = 0; i < images.length; i++) {
-    images[i].className += "tasty"
-    }
+$("img'").on("load", function() {
+  $("img").addClass("tasty")
+  });
 }
+
+
 
 
 $(document).ready(function(){
@@ -27,12 +24,21 @@ frameIt()
 })
 
 /*
-OLD DRAFTS
+ALT ATTEMPTS
 
 function frameIt() {
 $("img'").on("load", function() {
   $("img").addClass("tasty")
   });
+}
+
+function frameIt() {
+var images = document.getElementsByTagName("img");
+var i;
+
+for(i = 0; i < images.length; i++) {
+    images[i].className += "tasty"
+    }
 }
 
 function getIt() {
