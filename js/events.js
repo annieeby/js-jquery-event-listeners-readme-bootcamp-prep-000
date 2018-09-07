@@ -6,11 +6,7 @@ $("p").on("click", function() {
   });
 }
 
-function frameIt() {
-$("img'").on("load", function() {
-  $("img").addClass("tasty")
-  });
-}
+
 
 function frameIt() {
 var images = document.getElementsByTagName("img");
@@ -32,6 +28,13 @@ frameIt()
 
 /*
 OLD DRAFTS
+
+function frameIt() {
+$("img'").on("load", function() {
+  $("img").addClass("tasty")
+  });
+}
+
 function getIt() {
 $("p").on("click", function() {console.log("Hey!")});
 }
