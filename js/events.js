@@ -12,6 +12,9 @@ $("img'").on("load", function() {
   });
 }
 
+function pressIt() {
+  
+}
 
 
 
